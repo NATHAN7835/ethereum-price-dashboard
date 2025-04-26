@@ -41,7 +41,7 @@ try:
     with open(output_path, "w") as f:
         json.dump(report, f, indent=4)
 
-    print(f"✅ Rapport généré : {output_path}")
+    print(f"Rapport généré : {output_path}")
 
 except Exception as e:
-    print(f"❌ Erreur : {e}")
+    print(f"Erreur : {e}")
